@@ -1,7 +1,6 @@
 ## Summary
 
-The analytics team need to work with data about users and song of Sparkify, a music streaming app. 
-All data is in .json format and storaged in S3 and the Data Engineer was asked to work with them to build a ETL pipeline that extracts the data from S3, stages them in Redshift and transforms data into a set of dimensional tables.
+The analytics team needs to work with data about users and song of Sparkify, a music streaming app. All data is in .json format and stored in S3 and the Data Engineer was asked to work with them to build an ETL pipeline that extracts the data from S3, stages them in Redshift, and transforms data into a set of dimensional tables.
 
 ## About Dataset
 
@@ -43,4 +42,4 @@ time - timestamps of records in songplays broken down into specific units
  * dwh.cfg - parameters to create the cluster
  * aws_configuration.ipynb - cluster, s3, IAM configurations
  
-  The file create_table.py above need to be run first to drop all exiting tables and create another new ones. Done this, the etl.py can be executed.
+  The file create_table.py above needs to be run first to drop all existing tables and create other new ones. Done this, the etl.py can be executed.
